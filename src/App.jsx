@@ -10,11 +10,13 @@ const App = () => {
 					<Navbar />
 					<Hero />
 				</div>
-				<About />
+				
+				<About /> {/*01:07:40*/}
 				<Experience />
 				<Tech />
 				<Works />
 				<Feedbacks />
+				
 				<div className="realtive z-0">
 					<Contact />
 					<StarsCanvas />
