@@ -11,8 +11,8 @@ const App = () => {
 					<Hero />
 				</div>
 				
-				<About /> {/*01:07:40*/}
-				<Experience />
+				<About />
+				<Experience /> {/*01:23:20*/}
 				<Tech />
 				<Works />
 				<Feedbacks />
