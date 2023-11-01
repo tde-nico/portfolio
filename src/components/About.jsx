@@ -44,9 +44,8 @@ const About = () => {
 				variants={fadeIn("", "", 0.1, 1)}
 				className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
 			>
-				I'm a player of TRX (TheRomanXpl0it) for jeopardy style and A/D style
-				CTFs where i usualy do reverse engineering, binary exploitation or
-				system administration.
+				I actively participate in both Jeopardy-style Attack/Defense-style Capture The Flags (CTFs).
+				My focus areas include reverse engineering, binary exploitation, and systems administration.
 			</motion.p>
 
 			<div className='mt-20 flex flex-wrap gap-10'>

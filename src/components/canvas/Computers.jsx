@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useState } from 'react';
+import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 
@@ -11,37 +11,27 @@ const Computers = ({ isMobile }) => {
 
 	return (
 		<mesh>
-			<hemisphereLight intensity={1} groundColor='black' />
-			<spotLight
-				position={[+2, -5, -2.5]}
+			{/*<hemisphereLight intensity={1} groundColor='black' position={isMobile ? [4, 2, 0.6] : [0, 0, 0]} />*/}
+			{/*<spotLight
+				position={isMobile ? [+2, -3.8, -21.8] : [+2, -5, -2.5]}
 				angle={2.12}
 				penumbra={1}
 				intensity={10}
 				castShadow={true}
 				shadow-mapSize={1024}
-			/>
-			<pointLight intensity={4} decay={0}/>
+			/>*/}
+			<pointLight intensity={4} decay={0} position={isMobile ? [0, 2.3, 0.7] : [0, 0, 0]}/>
 			<primitive
 				object={computer.scene}
-				scale={isMobile ? 0.7 : 0.75}
-				position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+				scale={isMobile ? 1 : 0.75}
+				position={isMobile ? [0, -1.8, -2.2] : [0, -3.0, -1.5]}
 				rotation={[-0.01, -0.2, -0.1]}
 			/>
 		</mesh>
 	)
 }
 
-const ComputersCanvas = () => {
-	const [isMobile, setIsMobile] = useState(false)
-	
-	useEffect(() => {
-		const mediaQuery = window.matchMedia('(max-width: 500px)');
-		setIsMobile(mediaQuery.matches);
-		const handleMediaQueryChange = (event) => { setIsMobile(event.matches); }
-		mediaQuery.addEventListener('change', handleMediaQueryChange);
-		return () => { mediaQuery.removeEventListener('change', handleMediaQueryChange); }
-	}, [])
-
+const ComputersCanvas = ({ isMobile }) => {
 	return (
 		<Canvas
 			frameloop='demand'
