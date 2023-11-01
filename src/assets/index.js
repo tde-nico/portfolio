@@ -1,8 +1,14 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+
+// import backend from "./backend.png";
+// import creator from "./creator.png";
+// import mobile from "./mobile.png";
+// import web from "./web.png";
+import rev from "./logos/hex-rays.png";
+import pwn from "./logos/bug_black.png";
+import sysadmin from "./logos/Cisco.svg";
+import space from "./logos/pwn-the-rover.webp";
+
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -21,10 +27,11 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import trx from "./logos/TRX.svg";
+import mhackeroni from "./logos/mHACKeroni.png";
+import ccit from "./logos/CCIT.svg";
+import leonardo from "./logos/Leonardo.svg";
+import esa from "./logos/ESA.svg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -32,10 +39,10 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
+  rev,
+  pwn,
+  sysadmin,
+  space,
   github,
   menu,
   close,
@@ -52,10 +59,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  trx,
+  mhackeroni,
+  ccit,
+  leonardo,
+  esa,
   carrent,
   jobit,
   tripguide,

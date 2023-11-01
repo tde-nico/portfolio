@@ -12,8 +12,8 @@ const App = () => {
 				</div>
 				
 				<About />
-				<Experience /> {/*01:23:20*/}
-				<Tech />
+				<Experience />
+				<Tech /> {/*01:34:30*/}
 				<Works />
 				<Feedbacks />
 				
