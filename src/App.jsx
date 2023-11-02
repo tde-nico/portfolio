@@ -10,15 +10,15 @@ const App = () => {
 					<Navbar />
 					<Hero />
 				</div>
-				
+
 				<About />
 				<Experience />
 				<Tech />
 				<Works />
-				<Feedbacks /> {/*02:01:20*/}
-				
+				<Feedbacks />
+
 				<div className="realtive z-0">
-					<Contact />
+					<Contact /> {/*02:13:15*/}
 					<StarsCanvas />
 				</div>
 			</div>
