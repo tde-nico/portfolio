@@ -21,6 +21,8 @@ import {
 	proxy,
 	kernel,
 
+	dario,
+
 } from "../assets";
 
 export const navLinks = [
@@ -212,7 +214,7 @@ const testimonials = [
 		name: "Osint Dario",
 		designation: "CEO and Cofounder",
 		company: "TRX",
-		image: "https://avatars.githubusercontent.com/u/3639429?v=4",
+		image: dario,
 	},
 	/*{
 		testimonial:
