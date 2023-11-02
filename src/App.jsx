@@ -14,8 +14,8 @@ const App = () => {
 				<About />
 				<Experience />
 				<Tech />
-				<Works /> {/*01:44:20*/}
-				<Feedbacks />
+				<Works />
+				<Feedbacks /> {/*02:01:20*/}
 				
 				<div className="realtive z-0">
 					<Contact />

@@ -22,9 +22,12 @@ import go from "./tech/go.svg";
 import python from "./tech/python.svg";
 import typescript from "./tech/typescript.svg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import engine_3d from "./projects/engine_3d.png";
+import proxy from "./projects/proxy.png";
+import kernel from "./projects/kernel.png";
+//import carrent from "./carrent.png";
+//import jobit from "./jobit.png";
+//import tripguide from "./tripguide.png";
 
 export {
 	logo,
@@ -51,7 +54,7 @@ export {
 	python,
 	typescript,
 
-	carrent,
-	jobit,
-	tripguide,
+	engine_3d,
+	proxy,
+	kernel,
 };

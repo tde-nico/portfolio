@@ -17,9 +17,9 @@ import {
 	python,
 	typescript,
 
-	carrent,
-	jobit,
-	tripguide,
+	engine_3d,
+	proxy,
+	kernel,
 
 } from "../assets";
 
@@ -144,67 +144,64 @@ const technologies = [
 
 const projects = [
 	{
-		name: "Car Rent",
-		description:
-		"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+		name: "3D Engine",
+		description: "A 3D engine with dynamic lights and shadows, object importing and more.",
 		tags: [
-		{
-			name: "react",
-			color: "blue-text-gradient",
-		},
-		{
-			name: "mongodb",
-			color: "green-text-gradient",
-		},
-		{
-			name: "tailwind",
-			color: "pink-text-gradient",
-		},
+			{
+				name: "OpenGL",
+				color: "text-blue-400",
+			},
+			{
+				name: "Raytracing",
+				color: "text-green-600",
+			},
+			{
+				name: "Rendering",
+				color: "text-purple-500",
+			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
+		image: engine_3d,
+		source_code_link: "https://github.com/tde-nico/3D_engine_with_reflexes",
 	},
 	{
-		name: "Job IT",
-		description:
-		"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+		name: "Demon Hill",
+		description: "A cutsom proxy used in AD-style CTF's, used for traffic redirection, data sanitizing and more.",
 		tags: [
-		{
-			name: "react",
-			color: "blue-text-gradient",
-		},
-		{
-			name: "restapi",
-			color: "green-text-gradient",
-		},
-		{
-			name: "scss",
-			color: "pink-text-gradient",
-		},
+			{
+				name: "CTF",
+				color: "text-red-600",
+			},
+			{
+				name: "Blue Team",
+				color: "text-blue-600",
+			},
+			{
+				name: "System Administration",
+				color: "text-lime-500",
+			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
+		image: proxy,
+		source_code_link: "https://github.com/tde-nico/demon_hill",
 	},
 	{
-		name: "Trip Guide",
-		description:
-		"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+		name: "Simple Kernel",
+		description: "A minimal implementaion of a 64bit kernel for x86 and made with cross compilation.",
 		tags: [
-		{
-			name: "nextjs",
-			color: "blue-text-gradient",
-		},
-		{
-			name: "supabase",
-			color: "green-text-gradient",
-		},
-		{
-			name: "css",
-			color: "pink-text-gradient",
-		},
+			{
+				name: "Kernel Dev",
+				color: "text-pink-600",
+			},
+			{
+				name: "x86_64",
+				color: "text-yellow-400",
+			},
+			{
+				name: "Drivers",
+				color: "text-cyan-400",
+			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
+		image: kernel,
+		source_code_link: "https://github.com/tde-nico/os-dev_2",
 	},
 ];
 
