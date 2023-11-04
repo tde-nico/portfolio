@@ -15,10 +15,16 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import asm from "./tech/asm.png";
 import c from "./tech/c.svg";
 import cpp from "./tech/cpp.svg";
 import docker from "./tech/docker.png";
+import git from "./tech/git.svg";
 import go from "./tech/go.svg";
+import java from "./tech/java.svg";
+import javascript from "./tech/javascript.svg";
+import kivy from "./tech/kivy.png";
+import opengl from "./tech/opengl.svg";
 import python from "./tech/python.svg";
 import typescript from "./tech/typescript.svg";
 
@@ -46,10 +52,16 @@ export {
 	menu,
 	close,
 
+	asm,
 	c,
 	cpp,
 	docker,
+	git,
 	go,
+	java,
+	javascript,
+	kivy,
+	opengl,
 	python,
 	typescript,
 

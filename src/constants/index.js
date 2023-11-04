@@ -10,10 +10,16 @@ import {
 	leonardo,
 	esa,
 
+	asm,
 	c,
 	cpp,
 	docker,
+	git,
 	go,
+	java,
+	javascript,
+	kivy,
+	opengl,
 	python,
 	typescript,
 
@@ -119,6 +125,10 @@ const experiences = [
 
 const technologies = [
 	{
+		name: "ASM",
+		icon: asm,
+	},
+	{
 		name: "C",
 		icon: c,
 	},
@@ -130,10 +140,30 @@ const technologies = [
 		name: "Docker",
 		icon: docker,
 	},
-	/*{
+	{
+		name: "Git",
+		icon: git,
+	},
+	{
 		name: "Go",
 		icon: go,
-	},*/
+	},
+	{
+		name: "Java",
+		icon: java,
+	},
+	{
+		name: "Javascript",
+		icon: javascript,
+	},
+	{
+		name: "Kivy",
+		icon: kivy,
+	},
+	{
+		name: "OpenGL",
+		icon: opengl,
+	},
 	{
 		name: "Python",
 		icon: python,
