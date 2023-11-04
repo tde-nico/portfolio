@@ -7,6 +7,7 @@ import { slideIn } from '../utils/motion';
 import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 
+
 const Contact = () => {
 	const formRef = useRef();
 	const [form, setForm] = useState({
@@ -15,9 +16,41 @@ const Contact = () => {
 		message: '',
 	});
 	const [loading, setLoading] = useState(false);
+	
+	const handleChange = (e) => {
+		const { name, value } = e.target;
+		setForm({ ...form, [name]: value })
+	};
+	
+	const handleSubmit = (e) => {
+		e.preventDefault();
+		setLoading(true);
 
-	const handleChange = (e) => {};
-	const handleSubmit = (e) => {};
+		emailjs.send(
+			'service_mhgific',
+			'template_stb944j',
+			{
+				from_name: form.name,
+				to_name: 'Tommaso',
+				from_email: form.email,
+				to_email: 'giannigianni352@gmail.com',
+				message: form.message,
+			},
+			'P61JGcB0Q78ncXDGk',
+		).then(() => {
+			setLoading(false);
+			alert('Thank you for your submission.');
+			setForm({
+				name: '',
+				email: '',
+				message: '',
+			});
+		}, (error) => {
+			setLoading(false);
+			console.log(error);
+			alert('Something Went Wrong.');
+		});
+	};
 
 
 	return (

@@ -18,7 +18,7 @@ const App = () => {
 				<Feedbacks />
 
 				<div className="relative z-0">
-					<Contact /> {/* 02:20:40 */}
+					<Contact />
 					<StarsCanvas />
 				</div>
 			</div>

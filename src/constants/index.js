@@ -130,10 +130,10 @@ const technologies = [
 		name: "Docker",
 		icon: docker,
 	},
-	{
+	/*{
 		name: "Go",
 		icon: go,
-	},
+	},*/
 	{
 		name: "Python",
 		icon: python,
