@@ -9,6 +9,8 @@ import {
 	ccit,
 	leonardo,
 	esa,
+	cis,
+	sapienza,
 
 	asm,
 	c,
@@ -44,7 +46,7 @@ export const navLinks = [
 		id: "contact",
 		title: "Contact",
 	},
-	];
+];
 
 const services = [
 	{
@@ -74,7 +76,6 @@ const experiences = [
 		date: "Apr 2023 - Present",
 		points: [
 			"Joined CTF Team",
-			//"point",
 		],
 	},
 	{
@@ -85,7 +86,6 @@ const experiences = [
 		date: "May 2023 - Present",
 		points: [
 			"Joined CTF Team",
-			//"point",
 		],
 	},
 	{
@@ -96,7 +96,6 @@ const experiences = [
 		date: "Feb 2023 - Jul 2023",
 		points: [
 			"Achieved first place in the national AD CTF",
-			//"point",
 		],
 	},
 	{
@@ -118,7 +117,37 @@ const experiences = [
 		date: "Sep 2023 - Oct 2023",
 		points: [
 			"Achieved fourth place in the Space Hacking CTF",
+		],
+	},
+	{
+		title: "SIIS Master Class",
+		name: "Sapienza University of Rome",
+		icon: cis,
+		iconBg: "#989Ee6",
+		date: "Oct 2023",
+		points: [
+			"Teaching Assistant for the Master Class",
 			//"point",
+		],
+	},
+	{
+		title: "Cyber Challenge Bootcamp",
+		name: "Sapienza University of Rome",
+		icon: sapienza,
+		iconBg: "#989Ee6",
+		date: "Oct 2023 - Dec 2023",
+		points: [
+			"Tutor for the Cyber Challenge Bootcamp",
+		],
+	},
+	{
+		title: "Cyber Challenge",
+		name: "CyberChallengeIT",
+		icon: ccit,
+		iconBg: "#989Ee6",
+		date: "Feb 2024 - Present",
+		points: [
+			"Cyber Challenge Tutor",
 		],
 	},
 ];
@@ -239,8 +268,7 @@ const projects = [
 
 const testimonials = [
 	{
-		testimonial:
-		"Having collaborated with an exceptional CTF player, I can confidently attest to their outstanding OSINT skills.",
+		testimonial: "Having collaborated with an exceptional CTF player, I can confidently attest to his outstanding OSINT skills.",
 		name: "Osint Dario",
 		designation: "CEO and Cofounder",
 		company: "TRX",

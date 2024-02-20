@@ -10,6 +10,8 @@ import mhackeroni from "./logos/mHACKeroni.png";
 import ccit from "./logos/CCIT.svg";
 import leonardo from "./logos/Leonardo.svg";
 import esa from "./logos/ESA.svg";
+import cis from "./logos/CIS.png";
+import sapienza from "./logos/Sapienza.png";
 
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -47,6 +49,8 @@ export {
 	ccit,
 	leonardo,
 	esa,
+	cis,
+	sapienza,
 
 	github,
 	menu,
