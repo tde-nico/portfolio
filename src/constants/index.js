@@ -120,17 +120,6 @@ const experiences = [
 		],
 	},
 	{
-		title: "SIIS Master Class",
-		name: "Sapienza University of Rome",
-		icon: cis,
-		iconBg: "#989Ee6",
-		date: "Oct 2023",
-		points: [
-			"Teaching Assistant for the Master Class",
-			//"point",
-		],
-	},
-	{
 		title: "Cyber Challenge Bootcamp",
 		name: "Sapienza University of Rome",
 		icon: sapienza,
@@ -245,7 +234,7 @@ const projects = [
 		source_code_link: "https://github.com/tde-nico/demon_hill",
 	},
 	{
-		name: "Simple Kernel",
+		name: "x86-64 Kernel",
 		description: "A minimal implementaion of a 64bit kernel for x86 and made with cross compilation.",
 		tags: [
 			{
